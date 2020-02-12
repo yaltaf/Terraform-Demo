@@ -9,11 +9,11 @@ variable "location" {
 }
 
 variable "appservicename" {
-  default = "Pocterra_appservice"
+  default = "Poc_appservice"
   description = "The name of the app service"
 }
 
 variable "appserviceplan" {
-  default = "webappterratestplan"
+  default = "appterratestplan"
   description = "The name of the app service"
 }
