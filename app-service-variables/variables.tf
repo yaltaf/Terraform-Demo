@@ -12,3 +12,8 @@ variable "appservicename" {
   default = "Pocterra_appservice"
   description = "The name of the app service"
 }
+
+variable "appserviceplan" {
+  default = "webappterratestplan"
+  description = "The name of the app service"
+}
