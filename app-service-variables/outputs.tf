@@ -1,4 +1,4 @@
-output "app_service_name" {
+output "appservicename" {
   value = "${azurerm_app_service.test.name}"
 }
 
