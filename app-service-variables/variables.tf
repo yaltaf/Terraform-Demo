@@ -1,5 +1,5 @@
-variable "resource-group-name" {
-  default = "terraform-resource-group"
+variable "resource_group_name" {
+  default = "RG-TST-POCTERRA"
   description = "The prefix used for all resources in this example"
 }
 
@@ -8,7 +8,7 @@ variable "location" {
   description = "The Azure location where all resources in this example should be created"
 }
 
-variable "app-service-name" {
-  default = "terraform-app-service"
+variable "appservicename" {
+  default = "Pocterra_appservice"
   description = "The name of the app service"
 }
