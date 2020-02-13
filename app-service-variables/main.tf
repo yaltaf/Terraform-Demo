@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "test" {
   name     = "__resource_group_name__"  
-  location = var.location
+  location = "__location__"
 }
 
 resource "azurerm_app_service_plan" "test" {
