@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  type = string 
+  dafault = "RG-POCC-TEST"
 }
 
 variable "location" {
@@ -8,7 +8,7 @@ variable "location" {
 }
 
 variable "appservice" {
-  type = string
+  type = "string"
  }
 
 variable "appserviceplan" {
