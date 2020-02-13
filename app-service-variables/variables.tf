@@ -1,6 +1,5 @@
 variable "resource_group_name" {
-  default = "RG-TST-POCTERRA"
-  description = "The prefix used for all resources in this example"
+  type = string 
 }
 
 variable "location" {
@@ -9,11 +8,9 @@ variable "location" {
 }
 
 variable "appservicename" {
-  default = "Poc_appservice"
-  description = "The name of the app service"
-}
+  type = string
+ }
 
 variable "appserviceplan" {
-  default = "appterratestplan"
-  description = "The name of the app service"
-}
+  type = string
+ }
