@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  dafault = "RG-POCC-TEST"
+  default = "RG-POCC-TEST"
 }
 
 variable "location" {
@@ -8,9 +8,9 @@ variable "location" {
 }
 
 variable "appservice" {
-  type = "string"
+  default = "appservicetera02"
  }
 
 variable "appserviceplan" {
-  type = string
+   default = "appservicetera01"
  }
